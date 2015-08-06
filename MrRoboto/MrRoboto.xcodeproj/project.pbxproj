@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83176C121B728DC400AD2643 /* CellGridManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83176C111B728DC400AD2643 /* CellGridManager.swift */; };
+		831865821B73C2D200D42D94 /* CellRowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831865811B73C2D200D42D94 /* CellRowView.xib */; };
+		831865841B73C2E900D42D94 /* CellGridView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831865831B73C2E900D42D94 /* CellGridView.xib */; };
+		831865861B73C30F00D42D94 /* CellRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831865851B73C30F00D42D94 /* CellRowView.swift */; };
+		831865881B73C35E00D42D94 /* ViewLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831865871B73C35E00D42D94 /* ViewLoading.swift */; };
+		836A0D2B1B6EB4AC00A8DD69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836A0D2A1B6EB4AC00A8DD69 /* AppDelegate.swift */; };
+		836A0D301B6EB4AC00A8DD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836A0D2E1B6EB4AC00A8DD69 /* Main.storyboard */; };
+		836A0D321B6EB4AC00A8DD69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836A0D311B6EB4AC00A8DD69 /* Images.xcassets */; };
+		836A0D351B6EB4AC00A8DD69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 836A0D331B6EB4AC00A8DD69 /* LaunchScreen.xib */; };
+		836A0D4B1B6EB6D900A8DD69 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836A0D4A1B6EB6D900A8DD69 /* CellView.swift */; };
+		836A0D4E1B6ECFE500A8DD69 /* CellGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836A0D4C1B6EB90400A8DD69 /* CellGridView.swift */; };
+		836A0D511B6EF61D00A8DD69 /* CellGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836A0D4F1B6EF61D00A8DD69 /* CellGridViewController.swift */; };
+		836A0D561B6EF8EC00A8DD69 /* CellGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836A0D551B6EF8EC00A8DD69 /* CellGrid.swift */; };
+		836A0D591B7010D100A8DD69 /* Robots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836A0D581B7010D100A8DD69 /* Robots.swift */; };
+		837DD0A91B703DB9001B3BF9 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837DD0A81B703DB9001B3BF9 /* ScoreView.swift */; };
+		837DD0AC1B703E70001B3BF9 /* ScoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837DD0AB1B703E70001B3BF9 /* ScoreView.xib */; };
+		837DD0AF1B7040A4001B3BF9 /* OvalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837DD0AD1B704017001B3BF9 /* OvalView.swift */; };
+		838007F21B706DA100D101A9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838007F11B706DA100D101A9 /* Logger.swift */; };
+		83F9EBF51B72CA3B00D3D123 /* SimulationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9EBF41B72CA3B00D3D123 /* SimulationControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83176C111B728DC400AD2643 /* CellGridManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellGridManager.swift; sourceTree = "<group>"; };
+		831865811B73C2D200D42D94 /* CellRowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellRowView.xib; sourceTree = "<group>"; };
+		831865831B73C2E900D42D94 /* CellGridView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellGridView.xib; sourceTree = "<group>"; };
+		831865851B73C30F00D42D94 /* CellRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellRowView.swift; sourceTree = "<group>"; };
+		831865871B73C35E00D42D94 /* ViewLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLoading.swift; sourceTree = "<group>"; };
+		836A0D251B6EB4AC00A8DD69 /* MrRoboto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrRoboto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		836A0D291B6EB4AC00A8DD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836A0D2A1B6EB4AC00A8DD69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		836A0D2F1B6EB4AC00A8DD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		836A0D311B6EB4AC00A8DD69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		836A0D341B6EB4AC00A8DD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		836A0D4A1B6EB6D900A8DD69 /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		836A0D4C1B6EB90400A8DD69 /* CellGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellGridView.swift; sourceTree = "<group>"; };
+		836A0D4F1B6EF61D00A8DD69 /* CellGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellGridViewController.swift; sourceTree = "<group>"; };
+		836A0D551B6EF8EC00A8DD69 /* CellGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellGrid.swift; sourceTree = "<group>"; };
+		836A0D571B700C7C00A8DD69 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Playground.playground; path = MrRoboto/Playground.playground; sourceTree = "<group>"; };
+		836A0D581B7010D100A8DD69 /* Robots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Robots.swift; sourceTree = "<group>"; };
+		837DD0A81B703DB9001B3BF9 /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		837DD0AB1B703E70001B3BF9 /* ScoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreView.xib; sourceTree = "<group>"; };
+		837DD0AD1B704017001B3BF9 /* OvalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvalView.swift; sourceTree = "<group>"; };
+		838007F11B706DA100D101A9 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		83F9EBF41B72CA3B00D3D123 /* SimulationControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulationControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		836A0D221B6EB4AC00A8DD69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		836A0D1C1B6EB4AC00A8DD69 = {
+			isa = PBXGroup;
+			children = (
+				836A0D571B700C7C00A8DD69 /* Playground.playground */,
+				836A0D271B6EB4AC00A8DD69 /* MrRoboto */,
+				836A0D261B6EB4AC00A8DD69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		836A0D261B6EB4AC00A8DD69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836A0D251B6EB4AC00A8DD69 /* MrRoboto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		836A0D271B6EB4AC00A8DD69 /* MrRoboto */ = {
+			isa = PBXGroup;
+			children = (
+				836A0D2A1B6EB4AC00A8DD69 /* AppDelegate.swift */,
+				836A0D2E1B6EB4AC00A8DD69 /* Main.storyboard */,
+				836A0D311B6EB4AC00A8DD69 /* Images.xcassets */,
+				836A0D331B6EB4AC00A8DD69 /* LaunchScreen.xib */,
+				836A0D4F1B6EF61D00A8DD69 /* CellGridViewController.swift */,
+				83F9EBF41B72CA3B00D3D123 /* SimulationControl.swift */,
+				836A0D581B7010D100A8DD69 /* Robots.swift */,
+				836A0D551B6EF8EC00A8DD69 /* CellGrid.swift */,
+				83176C111B728DC400AD2643 /* CellGridManager.swift */,
+				83F9EBF71B72CE8800D3D123 /* Views */,
+				83F9EBF61B72CE5F00D3D123 /* Debug */,
+				836A0D281B6EB4AC00A8DD69 /* Supporting Files */,
+			);
+			path = MrRoboto;
+			sourceTree = "<group>";
+		};
+		836A0D281B6EB4AC00A8DD69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				836A0D291B6EB4AC00A8DD69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83F9EBF61B72CE5F00D3D123 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				838007F11B706DA100D101A9 /* Logger.swift */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		83F9EBF71B72CE8800D3D123 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				836A0D4A1B6EB6D900A8DD69 /* CellView.swift */,
+				836A0D4C1B6EB90400A8DD69 /* CellGridView.swift */,
+				831865831B73C2E900D42D94 /* CellGridView.xib */,
+				831865851B73C30F00D42D94 /* CellRowView.swift */,
+				831865811B73C2D200D42D94 /* CellRowView.xib */,
+				837DD0A81B703DB9001B3BF9 /* ScoreView.swift */,
+				837DD0AB1B703E70001B3BF9 /* ScoreView.xib */,
+				837DD0AD1B704017001B3BF9 /* OvalView.swift */,
+				831865871B73C35E00D42D94 /* ViewLoading.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		836A0D241B6EB4AC00A8DD69 /* MrRoboto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836A0D441B6EB4AC00A8DD69 /* Build configuration list for PBXNativeTarget "MrRoboto" */;
+			buildPhases = (
+				836A0D211B6EB4AC00A8DD69 /* Sources */,
+				836A0D221B6EB4AC00A8DD69 /* Frameworks */,
+				836A0D231B6EB4AC00A8DD69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MrRoboto;
+			productName = MrRoboto;
+			productReference = 836A0D251B6EB4AC00A8DD69 /* MrRoboto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		836A0D1D1B6EB4AC00A8DD69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Wacky Banana Software";
+				TargetAttributes = {
+					836A0D241B6EB4AC00A8DD69 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 836A0D201B6EB4AC00A8DD69 /* Build configuration list for PBXProject "MrRoboto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 836A0D1C1B6EB4AC00A8DD69;
+			productRefGroup = 836A0D261B6EB4AC00A8DD69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836A0D241B6EB4AC00A8DD69 /* MrRoboto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		836A0D231B6EB4AC00A8DD69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831865841B73C2E900D42D94 /* CellGridView.xib in Resources */,
+				836A0D301B6EB4AC00A8DD69 /* Main.storyboard in Resources */,
+				836A0D351B6EB4AC00A8DD69 /* LaunchScreen.xib in Resources */,
+				836A0D321B6EB4AC00A8DD69 /* Images.xcassets in Resources */,
+				831865821B73C2D200D42D94 /* CellRowView.xib in Resources */,
+				837DD0AC1B703E70001B3BF9 /* ScoreView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		836A0D211B6EB4AC00A8DD69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837DD0A91B703DB9001B3BF9 /* ScoreView.swift in Sources */,
+				837DD0AF1B7040A4001B3BF9 /* OvalView.swift in Sources */,
+				836A0D561B6EF8EC00A8DD69 /* CellGrid.swift in Sources */,
+				836A0D591B7010D100A8DD69 /* Robots.swift in Sources */,
+				838007F21B706DA100D101A9 /* Logger.swift in Sources */,
+				831865881B73C35E00D42D94 /* ViewLoading.swift in Sources */,
+				836A0D2B1B6EB4AC00A8DD69 /* AppDelegate.swift in Sources */,
+				836A0D4E1B6ECFE500A8DD69 /* CellGridView.swift in Sources */,
+				83F9EBF51B72CA3B00D3D123 /* SimulationControl.swift in Sources */,
+				836A0D511B6EF61D00A8DD69 /* CellGridViewController.swift in Sources */,
+				836A0D4B1B6EB6D900A8DD69 /* CellView.swift in Sources */,
+				83176C121B728DC400AD2643 /* CellGridManager.swift in Sources */,
+				831865861B73C30F00D42D94 /* CellRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		836A0D2E1B6EB4AC00A8DD69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836A0D2F1B6EB4AC00A8DD69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		836A0D331B6EB4AC00A8DD69 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836A0D341B6EB4AC00A8DD69 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		836A0D421B6EB4AC00A8DD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		836A0D431B6EB4AC00A8DD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		836A0D451B6EB4AC00A8DD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MrRoboto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		836A0D461B6EB4AC00A8DD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MrRoboto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		836A0D201B6EB4AC00A8DD69 /* Build configuration list for PBXProject "MrRoboto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836A0D421B6EB4AC00A8DD69 /* Debug */,
+				836A0D431B6EB4AC00A8DD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836A0D441B6EB4AC00A8DD69 /* Build configuration list for PBXNativeTarget "MrRoboto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836A0D451B6EB4AC00A8DD69 /* Debug */,
+				836A0D461B6EB4AC00A8DD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 836A0D1D1B6EB4AC00A8DD69 /* Project object */;
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Sma-hB-6OY">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Cell Grid View Controller-->
+        <scene sceneID="mwc-xf-65P">
+            <objects>
+                <viewController id="Sma-hB-6OY" customClass="CellGridViewController" customModule="MrRoboto" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OdL-MX-bls"/>
+                        <viewControllerLayoutGuide type="bottom" id="XAS-mP-Xp7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="obb-4e-ke7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uP6-ih-xIu" userLabel="Cell Grid Background">
+                                <rect key="frame" x="32" y="128" width="311" height="507"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="px0-at-zmO" userLabel="Cell Grid" customClass="CellGridView" customModule="MrRoboto" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="98" width="311" height="311"/>
+                                        <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="311" id="GFz-l6-RD0"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="px0-at-zmO" firstAttribute="leading" secondItem="uP6-ih-xIu" secondAttribute="leading" id="1fy-Vg-O7L"/>
+                                    <constraint firstAttribute="centerX" secondItem="px0-at-zmO" secondAttribute="centerX" id="8Mu-5L-2vU"/>
+                                    <constraint firstAttribute="centerY" secondItem="px0-at-zmO" secondAttribute="centerY" id="BuK-12-ORl"/>
+                                    <constraint firstAttribute="trailing" secondItem="px0-at-zmO" secondAttribute="trailing" id="Wxd-aP-hU1"/>
+                                    <constraint firstItem="px0-at-zmO" firstAttribute="top" secondItem="uP6-ih-xIu" secondAttribute="top" priority="750" constant="98" id="lkG-My-f2u"/>
+                                    <constraint firstAttribute="bottom" secondItem="px0-at-zmO" secondAttribute="bottom" priority="750" constant="98" id="r6C-xi-AZK"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jjf-R1-lae" userLabel="Robot One Score" customClass="ScoreView" customModule="MrRoboto" customModuleProvider="target">
+                                <rect key="frame" x="32" y="32" width="74.5" height="64"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="pqw-xm-cPu"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6tM-FN-gkV" userLabel="Robot Two Score" customClass="ScoreView" customModule="MrRoboto" customModuleProvider="target">
+                                <rect key="frame" x="268" y="32" width="74.5" height="64"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhY-uZ-oJe">
+                                <rect key="frame" x="114" y="45.5" width="73" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="GO!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goPressed:" destination="Sma-hB-6OY" eventType="touchUpInside" id="kUY-C2-eVl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rii-db-r2w">
+                                <rect key="frame" x="187" y="45.5" width="72.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonPressed:" destination="Sma-hB-6OY" eventType="touchUpInside" id="cjM-xA-ilW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Jjf-R1-lae" firstAttribute="top" secondItem="obb-4e-ke7" secondAttribute="topMargin" constant="32" id="0VS-Gj-L5b"/>
+                            <constraint firstAttribute="centerX" secondItem="Rii-db-r2w" secondAttribute="leading" id="0br-xc-MoT"/>
+                            <constraint firstItem="Jjf-R1-lae" firstAttribute="leading" secondItem="uP6-ih-xIu" secondAttribute="leading" id="9RP-4P-vXH"/>
+                            <constraint firstItem="lhY-uZ-oJe" firstAttribute="leading" secondItem="Jjf-R1-lae" secondAttribute="trailing" constant="8" id="AND-3U-qz6"/>
+                            <constraint firstItem="6tM-FN-gkV" firstAttribute="top" secondItem="Jjf-R1-lae" secondAttribute="top" id="ANl-K4-4V1"/>
+                            <constraint firstAttribute="centerX" secondItem="lhY-uZ-oJe" secondAttribute="trailing" id="Dlp-p3-tcN"/>
+                            <constraint firstItem="Jjf-R1-lae" firstAttribute="centerY" secondItem="lhY-uZ-oJe" secondAttribute="centerY" id="DpJ-kh-WDj"/>
+                            <constraint firstAttribute="trailing" secondItem="uP6-ih-xIu" secondAttribute="trailing" constant="32" id="JXU-QJ-DdM"/>
+                            <constraint firstItem="uP6-ih-xIu" firstAttribute="leading" secondItem="obb-4e-ke7" secondAttribute="leading" constant="32" id="bey-AZ-rae"/>
+                            <constraint firstAttribute="bottom" secondItem="uP6-ih-xIu" secondAttribute="bottom" constant="32" id="d8X-90-Fgz"/>
+                            <constraint firstItem="Jjf-R1-lae" firstAttribute="width" secondItem="obb-4e-ke7" secondAttribute="width" multiplier="0.2" priority="750" id="eBZ-JI-1Mn"/>
+                            <constraint firstItem="6tM-FN-gkV" firstAttribute="leading" secondItem="Rii-db-r2w" secondAttribute="trailing" constant="8" id="nqZ-ep-55H"/>
+                            <constraint firstItem="6tM-FN-gkV" firstAttribute="width" secondItem="Jjf-R1-lae" secondAttribute="width" id="oJE-j4-idW"/>
+                            <constraint firstItem="Rii-db-r2w" firstAttribute="centerY" secondItem="lhY-uZ-oJe" secondAttribute="centerY" id="oWA-Rn-npa"/>
+                            <constraint firstItem="uP6-ih-xIu" firstAttribute="top" secondItem="Jjf-R1-lae" secondAttribute="bottom" constant="32" id="rOt-hU-BBy"/>
+                            <constraint firstItem="6tM-FN-gkV" firstAttribute="trailing" secondItem="uP6-ih-xIu" secondAttribute="trailing" id="rWN-nA-6Op"/>
+                            <constraint firstItem="6tM-FN-gkV" firstAttribute="bottom" secondItem="Jjf-R1-lae" secondAttribute="bottom" id="vak-8Z-tgk"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="cellGridView" destination="px0-at-zmO" id="N0a-sl-nsU"/>
+                        <outlet property="goButton" destination="lhY-uZ-oJe" id="vgD-Fu-UtQ"/>
+                        <outlet property="resetButton" destination="Rii-db-r2w" id="Imt-7T-cbJ"/>
+                        <outlet property="robotOneScoreView" destination="Jjf-R1-lae" id="gZe-Hj-97d"/>
+                        <outlet property="robotTwoScoreView" destination="6tM-FN-gkV" id="QBN-kz-btS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IQy-nj-QK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3345" y="731"/>
+        </scene>
+    </scenes>
+</document>

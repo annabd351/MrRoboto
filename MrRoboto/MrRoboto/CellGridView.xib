@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7706"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="noa-YY-1Gk" userLabel="Cell Grid" customClass="CellGridView" customModule="MrRoboto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="747" height="1003"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ztI-xZ-0nw" userLabel="Row 1" customClass="CellRowView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="747" height="143.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fYi-4a-i3J" userLabel="Row 2" customClass="CellRowView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="143.5" width="747" height="143"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dd3-5X-eQX" userLabel="Row 3" customClass="CellRowView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="286.5" width="747" height="143.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9bn-El-ede" userLabel="Row 4" customClass="CellRowView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="430" width="747" height="143"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fi-b9-e8K" userLabel="Row 5" customClass="CellRowView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="573" width="747" height="143.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UfF-nE-3p0" userLabel="Row 6" customClass="CellRowView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="716.5" width="747" height="143"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZ3-f5-Hq2" userLabel="Row 7" customClass="CellRowView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="859.5" width="747" height="143.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.87772446869999998" green="0.39198905229999997" blue="0.1950775981" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+            <constraints>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="leading" secondItem="UfF-nE-3p0" secondAttribute="leading" id="1fQ-eD-iT1"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="trailing" secondItem="UfF-nE-3p0" secondAttribute="trailing" id="51N-Sk-LCa"/>
+                <constraint firstItem="UfF-nE-3p0" firstAttribute="top" secondItem="5fi-b9-e8K" secondAttribute="bottom" id="85D-wY-J82"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="leading" secondItem="5fi-b9-e8K" secondAttribute="leading" id="9Sy-fh-c3n"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="height" secondItem="UfF-nE-3p0" secondAttribute="height" id="9ln-mN-SeO"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="trailing" secondItem="JZ3-f5-Hq2" secondAttribute="trailing" id="CiK-1J-Rs8"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="height" secondItem="Dd3-5X-eQX" secondAttribute="height" id="EEV-HV-LfT"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="trailing" secondItem="5fi-b9-e8K" secondAttribute="trailing" id="FYl-YK-3n5"/>
+                <constraint firstItem="5fi-b9-e8K" firstAttribute="top" secondItem="9bn-El-ede" secondAttribute="bottom" id="GzT-VH-vnw"/>
+                <constraint firstItem="Dd3-5X-eQX" firstAttribute="top" secondItem="fYi-4a-i3J" secondAttribute="bottom" id="H22-KY-wyA"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="height" secondItem="9bn-El-ede" secondAttribute="height" id="HJb-zm-AFE"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="leading" secondItem="Dd3-5X-eQX" secondAttribute="leading" id="Iwr-5b-KAC"/>
+                <constraint firstItem="ztI-xZ-0nw" firstAttribute="top" secondItem="noa-YY-1Gk" secondAttribute="top" id="Lay-gI-9UZ"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="leading" secondItem="ztI-xZ-0nw" secondAttribute="leading" id="O1m-R2-lFz"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="trailing" secondItem="ztI-xZ-0nw" secondAttribute="trailing" id="OZ8-fX-C88"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="height" secondItem="ztI-xZ-0nw" secondAttribute="height" id="Ooi-fL-U5x"/>
+                <constraint firstItem="JZ3-f5-Hq2" firstAttribute="top" secondItem="UfF-nE-3p0" secondAttribute="bottom" id="PXr-eV-Ps3"/>
+                <constraint firstItem="ztI-xZ-0nw" firstAttribute="height" secondItem="noa-YY-1Gk" secondAttribute="height" multiplier="1:7" id="RP9-gk-EHe"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="JZ3-f5-Hq2" secondAttribute="bottom" id="Zxi-zw-qi2"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="trailing" secondItem="9bn-El-ede" secondAttribute="trailing" id="anT-R4-xqX"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="height" secondItem="5fi-b9-e8K" secondAttribute="height" id="bmR-pL-V8r"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="leading" secondItem="JZ3-f5-Hq2" secondAttribute="leading" id="btR-gF-pko"/>
+                <constraint firstItem="ztI-xZ-0nw" firstAttribute="leading" secondItem="noa-YY-1Gk" secondAttribute="leading" id="cOB-91-HOz"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="trailing" secondItem="Dd3-5X-eQX" secondAttribute="trailing" id="dAn-Q3-Wv5"/>
+                <constraint firstItem="9bn-El-ede" firstAttribute="top" secondItem="Dd3-5X-eQX" secondAttribute="bottom" id="fYk-hq-kZm"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="height" secondItem="JZ3-f5-Hq2" secondAttribute="height" id="lo7-fU-Mr4"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="top" secondItem="ztI-xZ-0nw" secondAttribute="bottom" id="oit-F0-EPM"/>
+                <constraint firstAttribute="trailing" secondItem="ztI-xZ-0nw" secondAttribute="trailing" id="qYL-Rv-LxN"/>
+                <constraint firstItem="fYi-4a-i3J" firstAttribute="leading" secondItem="9bn-El-ede" secondAttribute="leading" id="qx8-OP-qZp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="rowViews" destination="ztI-xZ-0nw" collectionClass="NSMutableArray" id="BV8-JH-Bwv"/>
+                <outletCollection property="rowViews" destination="fYi-4a-i3J" collectionClass="NSMutableArray" id="8dW-3o-aak"/>
+                <outletCollection property="rowViews" destination="Dd3-5X-eQX" collectionClass="NSMutableArray" id="ZDO-br-CWg"/>
+                <outletCollection property="rowViews" destination="9bn-El-ede" collectionClass="NSMutableArray" id="Stl-an-lSz"/>
+                <outletCollection property="rowViews" destination="5fi-b9-e8K" collectionClass="NSMutableArray" id="rRS-0n-Q6d"/>
+                <outletCollection property="rowViews" destination="UfF-nE-3p0" collectionClass="NSMutableArray" id="s5B-wb-rTj"/>
+                <outletCollection property="rowViews" destination="JZ3-f5-Hq2" collectionClass="NSMutableArray" id="MSY-J0-Xwj"/>
+            </connections>
+            <point key="canvasLocation" x="783.5" y="715.5"/>
+        </view>
+    </objects>
+</document>

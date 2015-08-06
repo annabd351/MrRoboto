@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7706"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JR5-Cj-KuE" userLabel="Row" customClass="CellRowView" customModule="MrRoboto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="949" height="333"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N32-v8-bCB" userLabel="Cell View 1" customClass="CellView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="135.5" height="333"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                            <color key="value" red="0.31404194078947367" green="0.31404194078947367" blue="0.31404194078947367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iBR-gU-Lh5" userLabel="Cell View 2" customClass="CellView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="135" y="0.0" width="135.5" height="333"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                            <color key="value" red="0.31404194078947367" green="0.31404194078947367" blue="0.31404194078947367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OVd-yg-uOc" userLabel="Cell View 3" customClass="CellView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="271" y="0.0" width="135.5" height="333"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                            <color key="value" red="0.31404194078947367" green="0.31404194078947367" blue="0.31404194078947367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uvm-1C-f1l" userLabel="Cell View 4" customClass="CellView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="406" y="0.0" width="136" height="333"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                            <color key="value" red="0.31404194078947367" green="0.31404194078947367" blue="0.31404194078947367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1kd-sy-MfE" userLabel="Cell View 5" customClass="CellView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="542" y="0.0" width="135.5" height="333"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                            <color key="value" red="0.31404194078947367" green="0.31404194078947367" blue="0.31404194078947367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1rQ-ue-hPm" userLabel="Cell View 6" customClass="CellView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="678" y="0.0" width="135.5" height="333"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                            <color key="value" red="0.31404194078947367" green="0.31404194078947367" blue="0.31404194078947367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hhR-Oc-Gjs" userLabel="Cell View 7" customClass="CellView" customModule="MrRoboto" customModuleProvider="target">
+                    <rect key="frame" x="813" y="0.0" width="135.5" height="333"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                            <color key="value" red="0.31404194078947367" green="0.31404194078947367" blue="0.31404194078947367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hhR-Oc-Gjs" secondAttribute="trailing" id="1la-84-3u0"/>
+                <constraint firstAttribute="bottom" secondItem="N32-v8-bCB" secondAttribute="bottom" id="59g-bo-p6v"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="leading" secondItem="OVd-yg-uOc" secondAttribute="trailing" id="5Qs-0a-PnN"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="top" secondItem="1rQ-ue-hPm" secondAttribute="top" id="8jh-Ao-T1D"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="bottom" secondItem="iBR-gU-Lh5" secondAttribute="bottom" id="8lA-ie-WPE"/>
+                <constraint firstAttribute="width" secondItem="N32-v8-bCB" secondAttribute="width" multiplier="7:1" id="B1Y-Dc-alQ"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="width" secondItem="OVd-yg-uOc" secondAttribute="width" id="BWa-te-KoW"/>
+                <constraint firstItem="hhR-Oc-Gjs" firstAttribute="leading" secondItem="1rQ-ue-hPm" secondAttribute="trailing" id="DLq-Hd-OF2"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="bottom" secondItem="hhR-Oc-Gjs" secondAttribute="bottom" id="HOj-0m-ZEq"/>
+                <constraint firstItem="OVd-yg-uOc" firstAttribute="leading" secondItem="iBR-gU-Lh5" secondAttribute="trailing" id="MWt-Zi-7Iy"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="width" secondItem="iBR-gU-Lh5" secondAttribute="width" id="Od3-3w-RQP"/>
+                <constraint firstItem="1rQ-ue-hPm" firstAttribute="leading" secondItem="1kd-sy-MfE" secondAttribute="trailing" id="QiD-yy-qOF"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="bottom" secondItem="N32-v8-bCB" secondAttribute="bottom" id="UFD-93-DcM"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="width" secondItem="hhR-Oc-Gjs" secondAttribute="width" id="Vo0-im-AkE"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="width" secondItem="1kd-sy-MfE" secondAttribute="width" id="WHQ-Lh-nK4"/>
+                <constraint firstItem="1kd-sy-MfE" firstAttribute="leading" secondItem="uvm-1C-f1l" secondAttribute="trailing" id="X0G-Du-znw"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="top" secondItem="iBR-gU-Lh5" secondAttribute="top" id="XSS-Ch-Bsg"/>
+                <constraint firstItem="iBR-gU-Lh5" firstAttribute="leading" secondItem="N32-v8-bCB" secondAttribute="trailing" id="ZSk-eL-idr"/>
+                <constraint firstItem="N32-v8-bCB" firstAttribute="leading" secondItem="JR5-Cj-KuE" secondAttribute="leading" id="bwp-My-zKS"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="top" secondItem="hhR-Oc-Gjs" secondAttribute="top" id="d3c-eT-9kx"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="bottom" secondItem="1rQ-ue-hPm" secondAttribute="bottom" id="dkp-WJ-eop"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="bottom" secondItem="1kd-sy-MfE" secondAttribute="bottom" id="gRr-DL-II2"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="top" secondItem="1kd-sy-MfE" secondAttribute="top" id="hih-81-z0r"/>
+                <constraint firstItem="N32-v8-bCB" firstAttribute="top" secondItem="JR5-Cj-KuE" secondAttribute="top" id="lKx-sz-X8r"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="top" secondItem="OVd-yg-uOc" secondAttribute="top" id="oqU-1H-I3p"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="width" secondItem="N32-v8-bCB" secondAttribute="width" id="qEq-s7-okR"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="top" secondItem="N32-v8-bCB" secondAttribute="top" id="rSa-Jr-ZRC"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="width" secondItem="1rQ-ue-hPm" secondAttribute="width" id="t8a-2d-bFe"/>
+                <constraint firstItem="uvm-1C-f1l" firstAttribute="bottom" secondItem="OVd-yg-uOc" secondAttribute="bottom" id="tLZ-hS-ULb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="cells" destination="N32-v8-bCB" collectionClass="NSMutableArray" id="Kjl-8x-baW"/>
+                <outletCollection property="cells" destination="iBR-gU-Lh5" collectionClass="NSMutableArray" id="yNC-dS-HXm"/>
+                <outletCollection property="cells" destination="OVd-yg-uOc" collectionClass="NSMutableArray" id="Q2n-Ul-nTt"/>
+                <outletCollection property="cells" destination="uvm-1C-f1l" collectionClass="NSMutableArray" id="Yjs-hJ-wo6"/>
+                <outletCollection property="cells" destination="1kd-sy-MfE" collectionClass="NSMutableArray" id="xh3-J6-mB4"/>
+                <outletCollection property="cells" destination="1rQ-ue-hPm" collectionClass="NSMutableArray" id="QOq-Go-Uvj"/>
+                <outletCollection property="cells" destination="hhR-Oc-Gjs" collectionClass="NSMutableArray" id="e7a-il-Mc5"/>
+            </connections>
+            <point key="canvasLocation" x="247.5" y="325.5"/>
+        </view>
+    </objects>
+</document>
