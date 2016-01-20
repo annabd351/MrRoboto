@@ -130,6 +130,6 @@ extension CellGrid.Position {
 typealias Position = CellGrid.Position
 typealias CellState = CellGrid.CellState
 
-extension CellGrid.Position: DebugPrintable {
+extension CellGrid.Position: CustomDebugStringConvertible {
     var debugDescription: String { return "x: \(self.x) y: \(self.y)" }
 }

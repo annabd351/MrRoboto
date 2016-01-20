@@ -7,7 +7,7 @@ var foo = [[Int]](count: 5, repeatedValue:[Int](count: 5, repeatedValue: 1))
 
 
 for element in foo {
-    println(element)
+    print(element)
 }
 
 

@@ -18,7 +18,7 @@ class Logger {
     
     class func msg(text: String) {
         dispatch_async(Logger.sharedInstance.messageQueue) {
-            println(text)
+            print(text)
         }
     }
 }

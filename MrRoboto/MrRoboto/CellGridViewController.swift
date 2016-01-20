@@ -59,7 +59,7 @@ class CellGridViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        cellGridView.setTranslatesAutoresizingMaskIntoConstraints(false)
+        cellGridView.translatesAutoresizingMaskIntoConstraints = false
 
         resetButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         resetButton.setTitleColor(UIColor.grayColor(), forState: UIControlState.Disabled)

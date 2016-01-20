@@ -21,11 +21,13 @@ extension UIView {
     class func replaceWithInstanceFromNib<T: UIView where T: HasAssociatedNib>(originalView: T) -> T {
         if originalView.subviews.count == 0 {
             let nib = UINib(nibName: T.NibName, bundle: nil)
-            let views = nib.instantiateWithOwner(nil, options: nil)
-            let newInstance: AnyObject = views[0]
-            newInstance.setTranslatesAutoresizingMaskIntoConstraints(false)
+            guard let views = nib.instantiateWithOwner(nil, options: nil) as? [UIView],
+                let newInstance = views[0] as? T else {
+                    fatalError("Could not read views from nib")
+            }
+            newInstance.translatesAutoresizingMaskIntoConstraints = false
             
-            return newInstance as! T
+            return newInstance
         }
         else {
             return originalView
